@@ -35,13 +35,13 @@ A professional-grade **Password Manager & Security Analyzer** built in Python wi
    git clone https://github.com/YOURUSERNAME/Advanced-Password-Analyzer.git
    cd Advanced-Password-Analyzer
    pip install -r requirements.txt  # cryptography pyperclip
-```
+   ```
 
 2. **Run**:
-
-```bash
-python password_manager.py
-```
+   
+   ```bash
+   python password_manager.py
+   ```
 
 3. **Usage**:
     - Analyze any password's strength in real-time
@@ -89,7 +89,7 @@ python password_manager.py
 │Strength │Vault  │    │JSON File│ (enc)  │
 │Analyzer │Storage│    │         │        │
 └──────────┘      └───▶└─────────┘        │
-                                            │
+                                          │
                                  ┌─────────▼─────────┐
                                  │ Disk (encrypted)   │
                                  └────────────────────┘
