@@ -6,16 +6,7 @@
 
 A professional-grade **Password Manager & Security Analyzer** built in Python with Tkinter GUI. Designed for cybersecurity students and professionals, it combines password strength evaluation (entropy + crack-time estimation), memorable passphrase generation (Diceware-style with dates), policy-compliant variations, and a secure AES-encrypted vault [web:39][web:40][web:35].
 
-**Perfect for MS Cybersecurity portfolios** - demonstrates encryption, GUI development, security best practices, and real-world utility [web:53][web:48].
 
-## ✨ Features
-
-- **Strength Checker**: Entropy calculation, character analysis, GPU crack-time estimation (e.g., 10^12 guesses/sec) [web:49][web:36]
-- **Memorable Generator**: Diceware words + personal dates (e.g., "apple-kiwi-mar25") for easy recall [web:40][web:46]
-- **Variation Tool**: Generate compliant variants (leet, append !/1, reverse) for password rotation policies [web:41]
-- **Secure Vault**: PBKDF2 key derivation + Fernet/AES-256 encryption; master password protected
-- **Professional GUI**: Dark theme, copy-to-clipboard, export/import, treeview vault browser
-- **Zero External APIs**: All local processing for privacy
 - # 🔐 Advanced Password Analyzer & Manager
 
 A professional-grade Password Manager & Security Analyzer built in Python with advanced encryption, password strength evaluation, and comprehensive vault management.
