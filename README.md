@@ -16,6 +16,27 @@ A professional-grade **Password Manager & Security Analyzer** built in Python wi
 - **Secure Vault**: PBKDF2 key derivation + Fernet/AES-256 encryption; master password protected
 - **Professional GUI**: Dark theme, copy-to-clipboard, export/import, treeview vault browser
 - **Zero External APIs**: All local processing for privacy
+- # 🔐 Advanced Password Analyzer & Manager
+
+A professional-grade Password Manager & Security Analyzer built in Python with advanced encryption, password strength evaluation, and comprehensive vault management.
+
+## ✨ Enhanced Features
+
+- **Strength Checker**: Entropy calculation, crack-time estimation
+- **Memorable Generator**: Diceware words + personal dates
+- **Secure Vault**: AES-256 encryption
+- **🆕 Password History**: Track password changes
+- **🆕 CSV Import/Export**: Bulk backup/restore
+- **🆕 Delete Functionality**: Secure entry removal
+- **🆕 Clipboard Auto-Clear**: 30-second security timeout
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/Krishita17/Advanced-Password-Analyzer.git
+cd Advanced-Password-Analyzer
+pip install -r requirements.txt
+python password_manager.py
 
 | Feature | Security Level | Memorability |
 |---------|----------------|--------------|
